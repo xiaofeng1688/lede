@@ -3,9 +3,8 @@
 #
 # Copyright (C) 2019 P3TERX
 #
-# Copyright (C) 2020 KFERMercer
-#
-name: OpenWrt-CI
+# 版权所有 (C) 2020 KFERMercer
+#名称： OpenWrt-C
 
 on:
   schedule:
@@ -84,7 +83,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: OpenWrt_buildinfo
-          path: ./artifact/buildinfo/
+          path: ./artifact/buildinfo/11
 
       - name: Deliver package
         uses: actions/upload-artifact@v2
